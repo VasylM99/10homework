@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    width: 70px;
+    height: 100px;
+    border: 5px solid #c67d00;
+    cursor: pointer;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0);
+}
+
+.container-item-hover{
+    border: 5px solid #3b3b3b;
+}
